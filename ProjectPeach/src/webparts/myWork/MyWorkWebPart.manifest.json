@@ -1,0 +1,26 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "d5e6bf3e-3531-4a46-8db4-b6bfdbe1f6b1",
+  "alias": "MyWorkWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "d5e6bf3e-3531-4a46-8db4-b6bfdbe1f6b1",
+    "group": { "default": "Under Development" },
+    "title": { "default": "MyWork" },
+    "description": { "default": "My Work Section for o365 Homepage" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "MyWork"
+    }
+  }]
+}

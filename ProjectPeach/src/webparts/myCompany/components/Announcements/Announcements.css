@@ -1,0 +1,33 @@
+.AnnouncementsWrapper {
+    text-align: center;
+    margin: 5px;
+}
+.AnnouncementsTitleRow {
+    padding: 5px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+.AnnouncementIcon {
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.AnnouncementItem {
+    padding: 5px;
+}
+.AnnouncementDate {
+    padding-left: 10px;
+    
+}
+.AnnouncementTitle {
+    padding-right: 10px;
+    text-align: left
+}
+
+.AnnouncementModalHeader {
+    padding: 10px;
+}
+.AnnouncementModalBody {
+    padding: 10px;
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "project-peach-client-side-solution",
+    "id": "98d43b80-f5f3-499b-9ff1-f83f4e8e0390",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": false
+  },
+  "paths": {
+    "zippedPackage": "solution/project-peach.sppkg"
+  }
+}

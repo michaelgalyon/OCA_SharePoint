@@ -1,0 +1,47 @@
+{
+  "version": "2.0",
+  "bundles": {
+    "my-work-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myWork/MyWorkWebPart.js",
+          "manifest": "./src/webparts/myWork/MyWorkWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-company-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myCompany/MyCompanyWebPart.js",
+          "manifest": "./src/webparts/myCompany/MyCompanyWebPart.manifest.json"
+        }
+      ]
+    },
+    "my-social-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mySocial/MySocialWebPart.js",
+          "manifest": "./src/webparts/mySocial/MySocialWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js",
+      "globalName": "jQuery"
+    },
+    "simpleWeather": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js",
+      "globalName": "jQuery",
+      "globalDependencies": [
+        "jquery"
+      ]
+    }
+  },
+  "localizedResources": {
+    "MyWorkWebPartStrings": "lib/webparts/myWork/loc/{locale}.js",
+    "MyCompanyWebPartStrings": "lib/webparts/myCompany/loc/{locale}.js",
+    "MySocialWebPartStrings": "lib/webparts/mySocial/loc/{locale}.js"
+  }
+}

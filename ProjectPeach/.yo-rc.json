@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.2.0",
+    "libraryName": "project-peach",
+    "libraryId": "98d43b80-f5f3-499b-9ff1-f83f4e8e0390",
+    "environment": "spo"
+  }
+}

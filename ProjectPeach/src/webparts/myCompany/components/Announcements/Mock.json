@@ -1,0 +1,42 @@
+[
+    {
+        "Title": "Test Announcement 1",
+        "Id": "1",
+        "Body": "This is the body of Test Announcement 1!  How awesome!  No that's not sarcasm..."
+    },
+    {
+        "Title": "Test Announcement 2",
+        "Id": "2",
+        "Body": "This is the body of Test Announcement 2!  How awesome!  No that's not sarcasm..."
+    },
+    {
+        "Title": "Test Announcement 3",
+        "Id": "3",
+        "Body": "This is the body of Test Announcement 3!  How awesome!  No that's not sarcasm..."
+    },
+    {
+        "Title": "Test Announcement 4",
+        "Id": "4",
+        "Body": "This is the body of Test Announcement 4!  How awesome!  No that's not sarcasm..."
+    },
+    {
+        "Title": "Test Announcement 5",
+        "Id": "5",
+        "Body": "This is the body of Test Announcement 5!  How awesome!  No that's not sarcasm..."
+    },
+    {
+        "Title": "Test Announcement 6",
+        "Id": "6",
+        "Body": "This is the body of Test Announcement 6!  How awesome!  No that's not sarcasm..."
+    },
+    {
+        "Title": "Test Announcement 7",
+        "Id": "7",
+        "Body": "This is the body of Test Announcement 7!  How awesome!  No that's not sarcasm..."
+    },
+    {
+        "Title": "Test Announcement 8",
+        "Id": "8",
+        "Body": "This is the body of Test Announcement 8!  How awesome!  No that's not sarcasm..."
+    }
+]
